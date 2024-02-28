@@ -1,0 +1,39 @@
+# MDAnalysis bin size for the density grid in ångström
+mda_delta: 2.5
+
+# MDAnalysis increase histogram dimensions by padding on top of initial box size in ångström
+mda_padding: 0.1
+
+# Density filter values
+density_filter_count_min: 1.0    # % more of the density min value
+density_filter_count_max: 1.0    # % less of the density max value
+
+# Atom groups per Atom types
+OSI: type 1
+SI: type 2
+HSur: type 3
+OSur: type 4
+H: type 5
+O: type 6
+H2O: type 5 or type 6
+
+# Atom masses and charges per Atom types
+type_1:
+  mass: 15.9994
+  charge: -0.55
+type_2:
+  mass: 28.086
+  charge: 1.1
+type_3:
+  mass: 15.9994
+  charge: -0.675
+type_4:
+  mass: 1.008
+  charge: 0.4
+type_5:
+  mass: 1.0079
+  charge: 0.5897
+type_6:
+  mass: 15.9995
+  charge: -1.1794
+

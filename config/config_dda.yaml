@@ -1,0 +1,16 @@
+# Set input/output directories
+input_dir: ./input/al
+output_dir_mass_density: ./output/mass_density
+output_dir_convex_hull_fit_ellipsoid: ./output/convex_hull_fit_ellipsoid
+output_dir_angles_dens: ./output/angles_dens
+output_dir_polar_chart: ./output/polar_chart
+output_dir_droplet_values_per_frame: ./output/droplet_values_per_frame
+output_dir_csv_files_all_frames: ./output/csv_files_all_frames
+output_dir_csv_files_single_frame: ./output/csv_files_single_frame
+
+# Set intermediate directories
+dir_html: html
+dir_images: images
+dir_gif: gif
+dir_csv_hbonds: csv_hbonds
+dir_csv_ldens: csv_ldens
